@@ -25,15 +25,15 @@ class Feedback extends React.PureComponent<{}, IFeedbackState> {
       this.state.name.trim().length > 0 &&
       this.state.collaborationTime.trim().length > 0
     ) {
-      this.setState({ 
+      this.setState({
         error: false,
         loading: true
       });
       this.sendRequest();
     } else {
-      this.setState({ 
+      this.setState({
         error: true,
-        errorMsg: "Va rugam completati toate campurile marcate cu *",
+        errorMsg: 'Va rugam completati toate campurile marcate cu *',
         loading: false
       });
     }
@@ -52,35 +52,37 @@ class Feedback extends React.PureComponent<{}, IFeedbackState> {
         D2: this.state.competence,
         D3: this.state.promptitude,
         D4: this.state.quality,
-        D5: this.state.price, 
+        D5: this.state.price,
         D6: this.state.communication,
         comments: this.state.other,
         email: this.state.email
       })
     })
-    .then((response) => {
-      if(response.status === 200) {
+      .then(response => {
+        if (response.status === 200) {
+          self.setState({
+            error: false,
+            loading: false
+          });
+        } else {
+          self.setState({
+            error: true,
+            errorMsg:
+              'Eroare la trimiterea Chestionarului. Va rugam incercati mai tarziu!',
+            loading: false
+          });
+        }
+      })
+      .catch(err => {
         self.setState({
-          error: false,
-          loading: false,
-        });
-      } else {
-        self.setState({ 
           error: true,
-          errorMsg: "Eroare la trimiterea Chestionarului. Va rugam incercati mai tarziu!",
+          errorMsg:
+            'Eroare la trimiterea Chestionarului. Va rugam incercati mai tarziu!',
           loading: false
         });
-      }
-    })
-    .catch((err) => {
-      self.setState({ 
-        error: true,
-        errorMsg: "Eroare la trimiterea Chestionarului. Va rugam incercati mai tarziu!",
-        loading: false
+        console.error(err);
       });
-      console.error(err);
-    });
-  }
+  };
 
   public render() {
     return (
@@ -90,11 +92,7 @@ class Feedback extends React.PureComponent<{}, IFeedbackState> {
           loading={this.state.loading}
           onSubmit={this.onSubmit}
         >
-          <Message
-            error
-            header="Eroare!"
-            content={ this.state.errorMsg }
-          />
+          <Message error header="Eroare!" content={this.state.errorMsg} />
           {feedbackFormData.inputs.map(input => (
             <FeedbackInput
               key={input.variable}
