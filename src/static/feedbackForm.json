@@ -9,13 +9,13 @@
       "variable": "name",
       "type": "input",
       "defaultValue": "",
-      "label": "Nume firma / client:"
+      "label": "Nume firma / client: *"
     },
     {
       "variable": "collaborationTime",
       "type": "input",
       "defaultValue": "",
-      "label": "De cand colaborati cu laboratorul Misano ?"
+      "label": "De cand colaborati cu laboratorul Misano ? *"
     },
     {
       "variable": "competence",

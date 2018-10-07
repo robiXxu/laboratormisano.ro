@@ -36,8 +36,6 @@ class FeedbackInput extends React.PureComponent<IFeedbackInputProps> {
             <label>{this.props.label}</label>
             <Input
               id={this.props.name}
-              label={{ icon: 'asterisk' }}
-              labelPosition="right corner"
               value={this.props.value}
               onChange={this.props.onChange}
             />
