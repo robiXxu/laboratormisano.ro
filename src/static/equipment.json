@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Analizor automat MS-9.5 Melet Schloesing, Mythic 18 Ophrèe",
+    "image": "equipment1.png",
+    "category": "Hematologie"
+  },
+  {
+    "name": "Analizor semiautomat KC1 Amelung, Cuatron M1",
+    "image": "equipment2.jpg",
+    "category": "Coagulare"
+  },
+  {
+    "name": "Analizor automat Vitalab Selectra E, BS-100 Mindray",
+    "image": "placeholder.png",
+    "category": "Biochimie"
+  },
+  {
+    "name": "Urini - Analizor de urini Aution Eleven AE-4020 Arkray",
+    "image": "placeholder.png",
+    "category": "Biochimie"
+  },
+  {
+    "name": "Analizor turbidimetrie Turbiquick Vital Diagnostics, linie Elisa - Stat Fax 303+",
+    "image": "placeholder.png",
+    "category": "Imunologie"
+  },
+  {
+    "name": "Linie automata Biotech Fisher, semiautomat Diaforez",
+    "image": "placeholder.png",
+    "category": "Electroforeza"
+  },
+  {
+    "name": "Analizor automat HbA1C Clover A1c Infopia",
+    "image": "placeholder.png",
+    "category": "Hemoglobila glicozilata"
+  }
+]
