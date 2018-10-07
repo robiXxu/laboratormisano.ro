@@ -1,7 +1,9 @@
 import * as React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Grid, Container } from 'semantic-ui-react';
-import { Top, Home, Program, Equipment, Contact } from '../components';
+import * as navData from '../static/nav.json';
+import { Top } from '../components';
+import * as Components from '../components';
 
 const AppRouter = () => (
   <BrowserRouter>
@@ -12,10 +14,14 @@ const AppRouter = () => (
       <Grid.Row>
         <Container>
           <Switch>
-            <Route path="/" component={ Home } exact={true} />
-            <Route path="/program" component={ Program } />
-            <Route path="/dotari" component={ Equipment } />
-            <Route path="/contact" component={ Contact } />
+            {navData.map(nav => (
+              <Route
+                key={nav.name}
+                path={nav.path}
+                component={Components[nav.component]}
+                exact={true}
+              />
+            ))}
           </Switch>
         </Container>
       </Grid.Row>

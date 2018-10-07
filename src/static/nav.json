@@ -1,11 +1,47 @@
 [
-  "acasa",
-  "program",
-  "dotari",
-  "dictionar analize",
-  "certificari",
-  "chestionar",
-  "lista analize",
-  "rezultate analize",
-  "contact"
+  {
+    "name": "Acasa",
+    "path": "/",
+    "component": "Home"
+  },
+  {
+    "name": "Program",
+    "path": "/program",
+    "component": "Program"
+  },
+  {
+    "name": "Dotari",
+    "path": "/dotari",
+    "component": "Equipment"
+  },
+  {
+    "name": "Dictionar Analize",
+    "path": "/dictionar-analize",
+    "component": "Home"
+  },
+  {
+    "name": "Certificari",
+    "path": "/certificari",
+    "component": "Certification"
+  },
+  {
+    "name": "Chestionar",
+    "path": "/chestionar",
+    "component": "Home"
+  },
+  {
+    "name": "Lista Analize",
+    "path": "/lista-analize",
+    "component": "Home"
+  },
+  {
+    "name": "Rezultate Analize",
+    "path": "/rezultate-analize",
+    "component": "Home"
+  },
+  {
+    "name": "Contact",
+    "path": "/contact",
+    "component": "Contact"
+  }
 ]

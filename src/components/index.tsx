@@ -4,6 +4,7 @@ export { default as Home } from './Pages/Home';
 export { default as Contact } from './Pages/Contact';
 export { default as Program } from './Pages/Program';
 export { default as Equipment } from './Pages/Equipment';
+export { default as Certification } from './Pages/Certification';
 
 // Header
 export { default as Top } from './Header/Top';
