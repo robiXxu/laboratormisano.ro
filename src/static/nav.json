@@ -27,7 +27,7 @@
   {
     "name": "Chestionar",
     "path": "/chestionar",
-    "component": "Home"
+    "component": "Feedback"
   },
   {
     "name": "Lista Analize",

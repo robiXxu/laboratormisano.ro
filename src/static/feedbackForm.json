@@ -1,0 +1,63 @@
+{
+  "dropdownOptions": [
+    { "key": 1, "text": "Foarte satisfacut(a)", "value": "Foarte satisfacut(a)" },
+    { "key": 2, "text": "Satisfacut(a)", "value": "Satisfacut(a)" },
+    { "key": 3, "text": "Nesatisfacut", "value": "Nesatisfacut" }
+  ],
+  "inputs": [
+    {
+      "variable": "name",
+      "type": "input",
+      "defaultValue": "",
+      "label": "Nume firma / client:"
+    },
+    {
+      "variable": "collaborationTime",
+      "type": "input",
+      "defaultValue": "",
+      "label": "De cand colaborati cu laboratorul Misano ?"
+    },
+    {
+      "variable": "competence",
+      "type": "dropdown",
+      "defaultValue": 1,
+      "label": "Competenta profesionala:"
+    },
+    {
+      "variable": "promptitude",
+      "type": "dropdown",
+      "defaultValue": 1,
+      "label": "Promptitudinea in rezolvarea solicitarilor:"
+    },
+    {
+      "variable": "quality",
+      "type": "dropdown",
+      "defaultValue": 1,
+      "label": "Calitatea serviciilor:"
+    },
+    {
+      "variable": "price",
+      "type": "dropdown",
+      "defaultValue": 1,
+      "label": "Pretul perceput pentru servicii:"
+    },
+    {
+      "variable": "communication",
+      "type": "dropdown",
+      "defaultValue": 1,
+      "label": "Disponibilitatea de comunicare a personalului:"
+    },
+    {
+      "variable": "other",
+      "type": "textArea",
+      "defaultValue": "",
+      "label": "Propuneri pentru imbunatatirea relatiilor cu laboratorul de analize medicale Misano:"
+    },
+    {
+      "variable": "email",
+      "type": "input",
+      "defaultValue": "",
+      "label": "Daca doriti raspuns la observatiile dvs. adaugati si e-mailul aici:"
+    }
+  ]
+}
