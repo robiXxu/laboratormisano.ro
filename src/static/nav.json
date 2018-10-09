@@ -32,7 +32,7 @@
   {
     "name": "Lista Analize",
     "path": "/lista-analize",
-    "component": "Home"
+    "component": "AnalysesList"
   },
   {
     "name": "Rezultate Analize",
