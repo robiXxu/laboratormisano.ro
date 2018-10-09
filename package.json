@@ -2,10 +2,11 @@
   "name": "laboratormisano.ro",
   "version": "0.1.0",
   "private": false,
-  "homepage" : "http://robixxu.github.io/laboratormisano.ro",
+  "homepage": "http://robixxu.github.io/laboratormisano.ro",
   "dependencies": {
     "@types/lodash": "^4.14.116",
     "@types/react-router-dom": "^4.3.1",
+    "gh-pages": "^2.0.1",
     "gh-pages-deploy": "0.4.2",
     "lodash": "^4.17.11",
     "react": "^16.5.2",
@@ -22,7 +23,7 @@
     "test": "react-scripts-ts test --env=jsdom",
     "eject": "react-scripts-ts eject",
     "predeploy": "yarn run build",
-    "deploy": "gh-pages-deploy --'build deploy'"
+    "deploy": "gh-pages -d build"
   },
   "gh-pages-deploy": {
     "staticpath": "build",
