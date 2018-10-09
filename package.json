@@ -5,6 +5,7 @@
   "dependencies": {
     "@types/lodash": "^4.14.116",
     "@types/react-router-dom": "^4.3.1",
+    "gh-pages-deploy": "0.4.2",
     "lodash": "^4.17.11",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
@@ -18,7 +19,13 @@
     "start": "react-scripts-ts start",
     "build": "react-scripts-ts build",
     "test": "react-scripts-ts test --env=jsdom",
-    "eject": "react-scripts-ts eject"
+    "eject": "react-scripts-ts eject",
+    "deploy": "gh-pages-deploy --'build deploy'"
+  },
+  "gh-pages-deploy": {
+    "staticpath": "build",
+    "commit": "build deploy",
+    "noprompt": false
   },
   "devDependencies": {
     "@types/jest": "^23.3.3",
