@@ -18,3 +18,5 @@ export { default as NavMenuItem } from './Header/NavMenuItem';
 export { default as IFrameEmbed } from './Others/IFrameEmbed';
 export { default as EquipmentCard } from './Others/EquipmentCard';
 export { default as FeedbackInput } from './Others/FeedbackInput';
+export { default as AnalysesTable } from './Others/AnalysesTable';
+export { default as AnalysisRow } from './Others/AnalysisRow';
