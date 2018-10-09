@@ -20,3 +20,4 @@ export { default as EquipmentCard } from './Others/EquipmentCard';
 export { default as FeedbackInput } from './Others/FeedbackInput';
 export { default as AnalysesTable } from './Others/AnalysesTable';
 export { default as AnalysisRow } from './Others/AnalysisRow';
+export { default as AnalysesLegend } from './Others/AnalysesLegend';
