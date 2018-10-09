@@ -6,7 +6,7 @@ import { Top, Footer } from '../components';
 import * as Components from '../components';
 
 const AppRouter = () => (
-  <BrowserRouter basename="/laboratormisano.ro/">
+  <BrowserRouter>
     <Grid>
       <Grid.Row centered verticalAlign="middle">
         <Top />
@@ -17,7 +17,7 @@ const AppRouter = () => (
             {navData.map(nav => (
               <Route
                 key={nav.name}
-                path={nav.path}
+                path={`${process.env.PUBLIC_URL}${nav.path}`}
                 component={Components[nav.component]}
                 exact={true}
               />
