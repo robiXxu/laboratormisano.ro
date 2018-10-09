@@ -5,8 +5,10 @@ import * as navData from '../static/nav.json';
 import { Top, Footer } from '../components';
 import * as Components from '../components';
 
+const basename = process.env.NODE_ENV === "development" ? "/" : "/laboratormisano.ro";
+
 const AppRouter = () => (
-  <BrowserRouter>
+  <BrowserRouter basename={ basename }>
     <Grid>
       <Grid.Row centered verticalAlign="middle">
         <Top />
@@ -17,7 +19,7 @@ const AppRouter = () => (
             {navData.map(nav => (
               <Route
                 key={nav.name}
-                path={`${process.env.PUBLIC_URL}${nav.path}`}
+                path={nav.path}
                 component={Components[nav.component]}
                 exact={true}
               />

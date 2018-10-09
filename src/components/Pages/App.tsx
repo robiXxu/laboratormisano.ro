@@ -5,6 +5,7 @@ import AppRouter from '../../router/AppRouter';
 
 class App extends React.PureComponent{
   public render(){
+    console.log(process.env);
     return (
       <Container style={{ margin: '30px' }} fluid={ true }>
         <AppRouter />
