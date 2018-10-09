@@ -6,7 +6,7 @@ import { Top, Footer } from '../components';
 import * as Components from '../components';
 
 const AppRouter = () => (
-  <BrowserRouter basename={ process.env.PUBLIC_URL }>
+  <BrowserRouter>
     <Grid>
       <Grid.Row centered verticalAlign="middle">
         <Top />
