@@ -5,10 +5,8 @@ import * as navData from '../static/nav.json';
 import { Top, Footer } from '../components';
 import * as Components from '../components';
 
-const basename = process.env.NODE_ENV === "development" ? "/" : "/laboratormisano.ro";
-
 const AppRouter = () => (
-  <BrowserRouter basename={ basename }>
+  <BrowserRouter basename={ process.env.PUBLIC_URL }>
     <Grid>
       <Grid.Row centered verticalAlign="middle">
         <Top />
