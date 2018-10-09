@@ -1,0 +1,150 @@
+[
+  {
+    "name": "Amilaza",
+    "description": "enzima ce activeaza hidroliza amidonului in maltoza si dextrine. Se gaseste o amilaza in saliva (ptialina) si una in sucul pancreatic. Valorile sunt crescute in pancreatitele acute (analog lipazei pancreatice), oreion (forme neparotidiene), colecistite, calculi biliari, obstructie intestinala."
+  },
+  {
+    "name": "Acid Vanil Mandelic Urinar",
+    "description": "Valori normale: 1.7-7.4 mg/24h.In neuroblastom sau ganglioneuroni prezinta valori mai mari de 10mg/24h. Intre 26-66 exista certitudine de feocromocitom."
+  },
+  {
+    "name": "Alaninaminotransferaza (glutam-oxalacetica) TGO, AST",
+    "description": "transferare in forma activa, abundenta in miocard. Se foloseste in diagnosticul infarctului de miocard (cand creste). Valori normale: 14-50 UI/L."
+  },
+  {
+    "name": "Glutamat Piruvat Transaminaza (transaminaza glutamo-piruvica) TGP, ALT",
+    "description": "transferare abundenta in ficat, de unde in cursul hepatic trece in sange la valori mult crescute peste normal: 21-72 UI/L."
+  },
+  {
+    "name": "Gama-Glutamil Transferaza - GGT",
+    "description": "enzima a carei dozare in sange permite aprecierea functiei hepatice si biliare. Concentratia ei este crescuta in hepatita, mai devreme decat a transaminazelor, iar scaderea ei are loc mai lent decat regresia hepatitei. Este crescuta si in staza biliara, in crize si in unele tumori hepatice. Valori normale: 8-78 u/l."
+  },
+  {
+    "name": "Creatinfosfikinaza - CPK",
+    "description": "enzima musculara care activeaza transformarea creatininei in creatinfosfat (forma de rezerva energetica). Este crescuta in infarct miocardic si in unele miopatii."
+  },
+  {
+    "name": "Izoenzima MB (CPK- MB)",
+    "description": "fractiune izoenzimatica de creatinfosfokinaza, a carei concentratie in sange (exprimata prin procente de izoenzima MB fata de CPK), cand estemai mare de 4% permite diagnosticul de infarct miocardic. Concentratia ei este mai mare la 18 ore dupa necroza."
+  },
+  {
+    "name": "Antistreptolizina “O” (ASLO)",
+    "description": "anticorpi care neutralizeaza streptolizina (toxina streptococica), care apare in sange dupa afectiuni streptococice (infectii), in special in reumatism articular acut (RAA)."
+  },
+  {
+    "name": "Antistreptokinaza",
+    "description": "anticorpi antistreptococici prezenti in ser in urma infectiei cu streptococ β- hemolitic sau dupa vaccinarea cu STK."
+  },
+  {
+    "name": "Celule Lupice",
+    "description": "celule de lupus eritematos diseminat (Hargraves) care sunt leucocite din seria granulocitara neutrofila care au fagocitat alte celule. Le gasim in LED. (80-90%) din cazuri , forme de PCE, AR (5-10% din cazuri). Se mai pot gasi in diferite afectiuni infectioase sau hematologice, in mod exceptional in unele hepatite, sclerodermie."
+  },
+  {
+    "name": "Complement Seric",
+    "description": "prezinta valori scazute in LED, artrita reumatoida, glomerulonefrita poststreptococica si valori crescute in boli infectioase si inflamatorii la debut, boli neoplazice, hiperlipoproteinemii primare."
+  },
+  {
+    "name": "Creatinina, Creatina",
+    "description": "substanta azotata prezenta in forma libera sau combinata cu fosforul in muschi, creier, sange cu rol in procesele metabolice ale contractiei musculare. Produsul sau de deshidratare interna este creatinina (0.5-1.3 mg/dl). Titrul sau ramane constant atata timp cat factorul renal de eliminare este normal. Creste nu numai in tulburari renale grave ci si in guta, afectiuni hepatice caracterizate prin distrugerea proteinelor, miopatii.Scade in insuficienta renala cronica. Cantitatea de creatina transformata in creatinina este intr-un raport direct cu masa de tesut muscular din organism; totodata valoarea creatininei variaza numai in functie de eliminarea sa renala, de unde importanta ei in aprecierea unei tulburari a filtrarii glomerulare."
+  },
+  {
+    "name": "Bilirubina",
+    "description": "pigment prezent in bila, ser si fecale, format in sistemul reticuloendotelial, ce provine din degradarea Hb prin pierderea Fe. In icter, concentratia creste si apare in urina."
+  },
+  {
+    "name": "Bilirubina Directa (Conjugata)",
+    "description": "forma a bilirubinei ce se poate doza direct. Conjugarea are loc in ficat, bilirubina directa trecand in bila. In serul normal concentratia este mai mica de 0.2%. O crestere a bilirubinei directe este expresia unei retentii biliare extrahepatice (coledoc) sau intrahepatice (hepatita). La valori mai mari de 150 mg/l se produce icterul legat de atingere hepatica (icter cataral, ciroza) sau obstructia cailor biliare."
+  },
+  {
+    "name": "Bilirubina Indirecta (Libera)",
+    "description": "forma a bilirubinei ce nu tranziteaza celulele hepatice, deci inainte de a ajunge in bila. Concentratia de 3-6 mg/l este crescuta in icterele hem si in icterul fiziologic al nou-nascutului. La valori mai mari de 15 mg/l intalnim icter prin hemoliza."
+  },
+  {
+    "name": "Acid Uric",
+    "description": "este produsul final de degradare a purinelor organismului. Este prezent in sange unde se poate acumula in unele stari patologice (guta, nefrite, leucemii tratate, boli infectioase, insuficienta renala cronica, poliglobulie, procese insotite de degradari tisulare) si eliminat prin urina (2.5-7.5 mg/dl). Medicamente ce afecteaza rezultatul sunt: cofeina, derivati salicilici, vitamina C, terapie cu ACTH, cu medicamente antimicotice, hidrocortizon, dupa radioterapie. Variabile fiziologice: alimentatie bogata in proteine, efort fizic, menopauza, sex, varsta."
+  },
+  {
+    "name": "Ureea (azotul ureic)",
+    "description": "substanta organica sintetizata in ficat, pornind de la amoniac si ajungand in sange . Valori normale.: 0.2-0.4 g/l; se elimina prin urina (Clearance: 75 mil/min). Concentratia ei poate fi crescuta in hipercatabolismul protidic exogen si endogen si scazand in insuficienta renala si cronica, insuficienta hepatica decompensata."
+  },
+  {
+    "name": "Trigliceridele",
+    "description": "esteri ai glicerolului cu 3 molecule de acid gras. Sunt constituente ale uleiurilor si grasimilor alimentare, fiind transportori ai colesterolului in sange (80-200 mg/dl)."
+  },
+  {
+    "name": "Lipoproteine",
+    "description": "LP - forma normala de transport a lipidelor in organism. Plasma contine mai multe feluri de lipoproteine, care dupa mobilitatea electroforetica se impart in: HDL (cu densitate mare) crescute in ciroza biliara, VLDL (cu densitate foarte mica) si LDL (cu densitate mica) = lipidograma."
+  },
+  {
+    "name": "Colesterol",
+    "description": "substanta organica ce intra in compozitia LP din sange sub forma libera sau ca esteri. Biosinteza sa are loc in toate celulele vii (in ficat si corticosuprarenale). Este transportat in sange de trigliceride si de LP. Prin oxidare se transforma in acizi biliari. Transporta acizi grasi nesaturati si participa la sinteza hormonilor steroizi. Depozitele de colesterol stau la originea ateromatozei, existand pericolul de accidente vasculare."
+  },
+  {
+    "name": "Colesterol LDH",
+    "description": "lipoproteine de densitate mare care controleaza depozitarea colesterolului in peretii vasculari. Concentratia sa este scazuta in situatii asociate cu boala ateromatoasa, imbatranirea, tabagismul, contraceptivele, diabetul. Este important in determinarea “riscului vascular”, cu cat este mai mic si deci nu poate asigura protectie, cu atat riscul este mai mare (mai mare de 5 implica risc crescut la barbati si mai mare de 4.5 presupune risc crescut la femei). Valorile normale sunt cele de 0.35-0.80 gr/l sau 32-96 mg/dl."
+  },
+  {
+    "name": "Colesterol LDL",
+    "description": "lipoproteine de densitate mica, ce contin 50% colesterol. Concentratia este crescuta in caz de hipercolesterolemie familiara. Este important in determinarea “riscului de ateromatoza si de accidente vasculare”. Valorile normale sunt cele de 3.9-4.9 mmol/l sau 0-130 mg/dl."
+  },
+  {
+    "name": "Colesterol VLDL",
+    "description": "lipoproteine cu densitate foarte mica."
+  },
+  {
+    "name": "Proteine, Albumine, Globuline",
+    "description": "globulinele avand greutate moleculara mai mare decat a albuminelor. Globulinele sunt alfa globuline (crescute in boli inflamatoriisi neoplazice), beta globuline si gama globuline (suportpentru anticorpi)."
+  },
+  {
+    "name": "Electroforeza",
+    "description": "metoda de laborator ce permite separarea in camp electric a diferitelor componente ale unei solutii (separarea fractiunilor proteice ale serului, care se deplaseaza cu viteze diferite: albumina 50-60%, alfa 1 globulina 3-4%, alfa 2 globulina 9-11%, beta 12-14%, gama ) sau imunoglobulinele cu proprietati imunitare: IgG, IgM, IgA, IgD, IgE).15-18% Valori patologice: - nefroza lipoidica (scad albuminele, cresc alfa 2) - colagenoza (creste gama) - ciroza (scad albuminele, cresc beta si gama) - tuberculoza (creste alfa 2)"
+  },
+  {
+    "name": "Imunoelectroforeza",
+    "description": "metoda de analiza a componentelor antigenice dintr-un lichid biologic prin separarea lor electroforetica si prin punerea in evidenta cu ajutorul unor anticorpi specifici prin precipitare."
+  },
+  {
+    "name": "Aglutininele",
+    "description": "substante prezente in unele seruri, capabile sa aglutineze microorganismele sau globulele rosii ce contin aglutinogenul corespunzator."
+  },
+  {
+    "name": "Grupele sanguine",
+    "description": "reprezinta o categorie in care se situeaza fiecare persoana dupa varietatea aglutininelor din sange sau, care ii sunt proprii , fiecare categorie apartinand unui sistem bine definit. Sistemul clasic al grupelor sanguine eritrocitare (dependent de aglutininele situate pe globulele rosii) este sistemul ABO, ce cuprinde 4 grupe: A (prezenta de aglutinogen A), B (prezenta de aglutinogen B), AB (ambele aglutinogene) si O (absenta aglutinogenelor)."
+  },
+  {
+    "name": "Aloimunizare (Izoimunizare)",
+    "description": "Imunizarea unui subiect printr-un antigen provenit de la alt subiect apartinand aceleiasi specii."
+  },
+  {
+    "name": "Anatoxina",
+    "description": "preparat obtinut dintr-o toxina bacteriana (difterica, tetanica, botulinica) prin actiunea formolului si caldurii si care si-a pierdut puterea toxica, pastrand-o pe cea imunizanta. Aceasta joaca rol de vaccin impotriva maladiilor grave."
+  },
+  {
+    "name": "Antiser",
+    "description": "ser ce contine anticorpi obtinuti prin inocularea unui antigen."
+  },
+  {
+    "name": "ARC (AIDS – related complex) - paraSIDA",
+    "description": "ansamblul manifestarilor clinice moderate, intermediare ale infectiei cu HIV, care nu sunt atat de grave ca cele din SIDA."
+  },
+  {
+    "name": "Formula Arneth",
+    "description": "repartizarea leucocitelor dupa numarul de lobuli nucleari."
+  },
+  {
+    "name": "Fier seric (sideremia)",
+    "description": "80-130 ľg/100ml ser(F), 90-150 ľg Fe/100 ml ser(B), 60 ľg la copiii de un an.Valori crescute in: anemia Biermer, anemii si ictere hemolitice, hepatita, hemosideroza, hemocromatoza.Valori scazute in: anemii hipocrome (post hemoragice, feriprive, cloroza), anemia prematurilor, anemii hipocrome din infectii (tumori maligne, tulburari de absorbtie)."
+  },
+  {
+    "name": "Lactic dehidrogenaza (LDH)",
+    "description": "enzime distribuite in ficat, rinichi, inima, muschi scheletici. Valori normale: 50-400 u/100 ml ser in functie de metoda. Constelatia enzimatica in infarct miocardic: LDH > TGO > TGP.Valori crescute in: infarct miocardic acut (valori maxime la 2-3 zile de la infarct).Valori mult crescute: hepatita cronica, ciroza, pancreatita, infectii pulmonare, anemie Biermer (de 10 ori mai mare), tumori maligne. In hepatita virala LDH se mentine la valori fiziologice."
+  },
+  {
+    "name": "Lipide totale (aflate in circulatia sanguina si limfatica)",
+    "description": "colesterolul, fosfolipidele (lecitina, cefalina, sfingomielina) si trigliceridele. Valori normale: 600-800 mg%. Variabile fiziologice: in timpul sarcinii si dupa mese. Valori crescute in afectiuni de origine: renala (sindromul nefrotic), hepatita (ciroza – la inceput, icter prin retentie), pancreatica (diabet, pancreatita acuta), tiroidiana , mixedem, suprarenaliana, hipercorticism, stress psihic, dislipoidoze, maladii arteriale (aterom, arterita, coronarita)."
+  },
+  {
+    "name": "Magneziu",
+    "description": "prezinta un interes crescut in ultimii ani, urmarindu-se paralel cu calcemia in starile de hiperexcibilitate neuro-musculara si insuficienta renala severa. Magneziu seric la adulti: 3-5 mg/100 ml ser, copii sub 10 ani - 1.6-2.4 mg/100 ml. Valori crescutein: hipertiroidii, insuficiente renale severe, ciroze grave."
+  }
+]

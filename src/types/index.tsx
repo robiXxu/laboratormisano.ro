@@ -5,3 +5,4 @@ export { default as IFeedbackState } from './IFeedbackState';
 export { default as IFeedbackInputProps } from './IFeedbackInputProps';
 export { default as IAnalysesTableProps } from './IAnalysesTableProps';
 export { default as IAnalysisType } from './IAnalysisType';
+export { default as IAnalysisDictionaryItemProps } from './IAnalysisDictionaryItemProps';
