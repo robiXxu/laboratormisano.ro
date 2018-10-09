@@ -11,9 +11,10 @@ export { default as AnalysesResults } from './Pages/AnalysesResults';
 export { default as AnalysesDictionary } from './Pages/AnalysesDictionary';
 
 // Header
-export { default as Top } from './Header/Top';
-export { default as NavMenu } from './Header/NavMenu';
-export { default as NavMenuItem } from './Header/NavMenuItem';
+export { default as Top } from './Partial/Top';
+export { default as NavMenu } from './Partial/NavMenu';
+export { default as NavMenuItem } from './Partial/NavMenuItem';
+export { default as Footer } from './Partial/Footer';
 
 // Other Components
 export { default as IFrameEmbed } from './Others/IFrameEmbed';

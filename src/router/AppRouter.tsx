@@ -2,7 +2,7 @@ import * as React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 import { Grid, Container } from 'semantic-ui-react';
 import * as navData from '../static/nav.json';
-import { Top } from '../components';
+import { Top, Footer } from '../components';
 import * as Components from '../components';
 
 const AppRouter = () => (
@@ -24,6 +24,9 @@ const AppRouter = () => (
             ))}
           </Switch>
         </Container>
+      </Grid.Row>
+      <Grid.Row>
+        <Footer />
       </Grid.Row>
     </Grid>
   </BrowserRouter>
