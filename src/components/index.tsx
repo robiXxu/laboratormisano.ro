@@ -7,6 +7,7 @@ export { default as Equipment } from './Pages/Equipment';
 export { default as Certification } from './Pages/Certification';
 export { default as Feedback } from './Pages/Feedback';
 export { default as AnalysesList } from './Pages/AnalysesList';
+export { default as AnalysesResults } from './Pages/AnalysesResults';
 
 // Header
 export { default as Top } from './Header/Top';
